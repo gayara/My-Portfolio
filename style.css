@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+.navbar {
+  background-color: rgb(144, 221, 238);
+  box-shadow: 0 2px 2px -2px rgba(2, 2, 2, 0.4);
+  
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar .navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  text-transform: uppercase;
+  color: black;
+}
+
+.navbar-nav .nav-item .nav-link::after{
+  position: absolute;
+  content: "";
+  left: .5rem;
+  bottom: .5rem;
+  width: 0;
+  height: 2px;
+  background: #bbb3b3;
+  transition: .3s;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover::after,
+.navbar-nav .nav-item .nav-link.active::after{
+  width: 50%;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+  color: rgb(55, 108, 177);
+  font-weight: 700;
+}
+
+
+
+#hero {
+  background-color: rgb(144, 221, 238);
+  min-height: 100vh;
+  width: 100%;
+  z-index: 1;
+  padding-top: 9rem;
+  
+}
+
+.hero-col {
+  justify-content: space-between;
+  align-items: center;
+  margin:auto ;
+  
+}
+
+.hero-col h3::after{
+  content: "";
+  width: 65%;
+  height: 0.125rem;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  background-color: black;
+  overflow-x: hidden;
+}
+#hero .btn {
+  margin-top: 5px;
+  background-color: rgb(61, 156, 168);
+  border-color: #87c4cf;
+  color: #fff
+}
+
+#hero .btn:hover {
+  background-color:rgb(55, 108, 177);
+}
+
+
+.about-me p {
+  padding: auto;
+  text-align: left;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+
+.about-me img {
+  border:#bbb3b3;
+  height: 40vh;
+  box-shadow: #bababa;
+}
+
+.timeline {
+  border-left: 2px solid #bababa;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.timeline .timeline-box {
+  padding-left: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-icon {
+  left: -14px;
+  top: 0;
+  background-color: #54f8a6;
+  position: absolute;
+  width: 25px;
+  z-index: 1;
+  text-align: center;
+  line-height: 25px;
+}
+
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border: none !important;
+  background-color: rgb(225, 241, 131);
+}
+.nav-tabs {
+  border: none !important;
+}
+
+#skills-section {
+  background-color: rgb(144, 221, 238);
+  width: 100%;
+}
+.skill-box {
+  background-color: rgb(251, 255, 240);
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px rgba(88, 100, 117, 0.2);
+}
+
+.skill .val {
+  float: right;
+}
+
+.progress {
+  height: 10px;
+  transition: 0.9s;
+  background-color: #ddf0e3;
+}
+
+.progress .progress-bar {
+  background: #04130a;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  height: 45vh;
+  border: 1px solid #8b8787;
+}
+
+.filter-btn{
+border: 1px solid #87c4cf;
+font-weight: 400;
+}
+
+
+.portfolio-item:hover {  
+  box-shadow: 0px 15px 20px rgba(88, 100, 117, 0.2);
+}
+
+.portfolio-item .plus-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .4s ease 0s;
+
+}
+
+.portfolio-item:hover .plus-icon {
+  background: rgba(236, 235, 235, 0.623);
+}
+
+.portfolio-item .plus-icon .item{
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%,-50%);
+  
+}
+
+.portfolio-item:hover .plus-icon .item{
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.portfolio-item::before {
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+}
+#contact-section {
+  background-color: rgb(144, 221, 238);
+  width: 100%;
+}
+
+
+.contact-details{
+background-color: rgb(110, 122, 76);
+border-radius: 20px;
+box-shadow: 0px 15px 20px rgba(88, 100, 117, 0.2);
+}
+.contact-box{
+  background-color: rgb(251, 255, 240);
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px rgba(88, 100, 117, 0.2);
+}
+
+.form{
+  background: #eeeeee;
+  border-radius: 15px;
+
+}
