@@ -52,8 +52,11 @@
     line-height: 2.5rem;
   }
   .progress {
-    height: 8px;
+    height: 2rem;
   }
+  
+
+
 
 }
 
@@ -65,4 +68,3 @@
     font-size: 0.9rem;
   }
 }
-
