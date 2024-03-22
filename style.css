@@ -20,6 +20,9 @@ body {
   font-size: 2rem;
 }
 
+.name-nav{
+  color: rgb(61, 156, 168);
+}
 .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -83,7 +86,7 @@ body {
 }
 #hero .btn {
   margin-top: 5px;
-  background-color: rgb(61, 156, 168);
+  background-color: rgb(26, 131, 145);
   border-color: #87c4cf;
   color: #fff;
 }
