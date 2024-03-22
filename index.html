@@ -27,11 +27,13 @@
   </head>
 
   <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+
     <!-- ========= navbar section ========= -->
+
     <header id="header-section">
       <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container">
-          <img src="./images/favicon-32x32.png" alt="logo"  />
+          <img src="./images/favicon-32x32.png" alt="logo" />
           <a class="navbar-brand ms-2 text-success fw-bold" href="#"
             >Portfolio</a
           >
@@ -81,25 +83,21 @@
         <div class="row">
           <div class="col-lg-6 hero-col order-lg-1 order-2">
             <h3 class="text-uppercase position-relative">Hello,</h3>
-            <h1 class="text-uppercase fw-bold py-2">
-              I'm <span class="text-danger">Dinali Attanayake</span>
+            <h1 class=" fw-bold py-2">
+              I'm <span class="text-danger text-uppercase">Dinali Attanayake</span>
             </h1>
             <p>
               A passionate web and frontend developer. I love creating beautiful
               and functional websites, and I'm excited to share my work with
               you.
             </p>
-            <a
-              href="./pdf/Dinali Attanayake.pdf"
-              download
-              class="btn my-3"
-            >
+            <a href="./pdf/Dinali Attanayake.pdf" download class="btn my-3">
               Download CV
             </a>
           </div>
           <div class="col-lg-6 order-lg-2 order-1">
             <img
-              class="header-img w-75 rounded-circle shadow-sm d-flex mx-auto mb-3"
+              class="header-img w-75 rounded-circle d-flex mx-auto mb-3"
               src="./images/PSX.jpg"
               alt="cover image"
             />
@@ -112,9 +110,9 @@
     <!-- ========= about section start ========= -->
     <section id="about-section">
       <div class="container py-5 mt-5">
-        <div class="row g-5">
+        <div class="row g-5 ">
           <div class="col-12">
-            <h1 class="text-success fs-1 fw-bold mb-3 pt-5 text-center">
+            <h1 class="text-success fs-2 fw-bold mb-3 pt-5 text-center text-uppercase">
               About Me
             </h1>
           </div>
@@ -259,8 +257,8 @@
                               Intern Software Engineer <br />
                             </dt>
                             <dd>
-                              Quadrate Tech Solutions (Pvt.) Ltd
-                              <span class="px-"> 06.08.2022 – 31.01.2023</span>
+                              Quadrate Tech Solutions (Pvt.) Ltd  <br> 
+                              06.08.2022 – 31.01.2023
                             </dd>
 
                             <ul>
@@ -382,7 +380,7 @@
       <div class="container py-5 mt-5">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-success fs-1 fw-bold mb-5 pt-5 text-center">
+            <h1 class="text-success fs-2 fw-bold mb-5 pt-5 text-center text-uppercase text-uppercase">
               Skills
             </h1>
           </div>
@@ -507,31 +505,38 @@
       <div class="container py-5 mt-5">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-success fs-1 fw-bold mb-3 pt-5 text-center">
+            <h1 class="text-success fs-2 fw-bold mb-3 pt-5 text-center text-uppercase">
               Portfolio
             </h1>
             <div class="control text-center mt-5">
               <ul id="fiter-buttons">
-                <li class="btn filter-btn mx-2" data-filter-target="all">
+                <li class="btn btn-outline-primary active mx-2" data-filter-target="all">
                   All
                 </li>
-                <li class="btn filter-btn mx-2" data-filter-target="ecom">
-                  E commerce
+                <li class="btn btn-outline-primary mx-2" data-filter-target="ecom">
+                  Website
                 </li>
-                <li class="btn filter-btn mx-2" data-filter-target="game">
+                <li class="btn btn-outline-primary mx-2" data-filter-target="desktop">
+                  Desktop
+                </li>
+                <li class="btn btn-outline-primary mx-2" data-filter-target="game">
                   Game
                 </li>
               </ul>
             </div>
             <div class="row portfolio-Gallery">
-              <div class="col-lg-4 col-sm-6 mt-5 " data-id="ecom">
+              <div class="col-lg-4 col-sm-6 mt-5" data-id="ecom">
                 <div class="portfolio-item">
-                  <img src="./images/portfolio-img/cloths.jpeg" alt="" class="img-fluid" />
+                  <img
+                    src="./images/portfolio-img/cloths.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
 
                   <div class="plus-icon">
                     <div class="item text-center">
-                      <h5 class="pb-1 mt-4 fs-5 fw-400">Inventory project</h5>
-                      <p>css,html</p>
+                      <h5 class="pb-1 mt-4 fs-5 fw-bold">Clothing Website</h5>
+                      <p class="text-uppercase">html | css | JS</p>
                       <a
                         href="./images/portfolio-img/cloths.jpeg"
                         data-gallery="portfolioGallery"
@@ -549,12 +554,16 @@
               </div>
               <div class="col-lg-4 col-sm-6 mt-5" data-id="ecom">
                 <div class="portfolio-item">
-                  <img src="./images/portfolio-img/petcare.jpeg" alt="" class="img-fluid" />
+                  <img
+                    src="./images/portfolio-img/petcare.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
 
                   <div class="plus-icon">
                     <div class="item text-center">
-                      <h5 class="pb-1 mt-4 fs-5 fw-400">Inventory project</h5>
-                      <p>css,html</p>
+                      <h5 class="pb-1 mt-4 fs-5 fw-bold">Pet Care Website</h5>
+                      <p class="text-uppercase">html | css | Boostrap</p>
                       <a
                         href="./images/portfolio-img/petcare.jpeg"
                         data-gallery="portfolioGallery"
@@ -572,12 +581,16 @@
               </div>
               <div class="col-lg-4 col-sm-6 mt-5" data-id="game">
                 <div class="portfolio-item">
-                  <img src="./images/portfolio-img/puzzel.jpeg" alt="" class="img-fluid" />
+                  <img
+                    src="./images/portfolio-img/puzzel.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
 
                   <div class="plus-icon">
                     <div class="item text-center">
-                      <h5 class="pb-1 mt-4 fs-5 fw-400">Inventory project</h5>
-                      <p>css,html</p>
+                      <h5 class="pb-1 mt-4 fs-5 fw-bold">Puzzel Game</h5>
+                      <p class="text-uppercase">Html | CSS | JS</p>
                       <a
                         href="./images/portfolio-img/puzzel.jpeg"
                         data-gallery="portfolioGallery"
@@ -593,14 +606,18 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-6 mt-5" data-id="ecom">
+              <div class="col-lg-4 col-sm-6 mt-5" data-id="desktop">
                 <div class="portfolio-item">
-                  <img src="./images/portfolio-img/warehouse.jpeg" alt="" class="img-fluid h-100 w-100" />
+                  <img
+                    src="./images/portfolio-img/warehouse.jpeg"
+                    alt=""
+                    class="img-fluid h-100 w-100"
+                  />
 
                   <div class="plus-icon">
                     <div class="item text-center">
-                      <h5 class="pb-1 mt-4 fs-5 fw-400">Inventory project</h5>
-                      <p>css,html</p>
+                      <h5 class="pb-1 mt-4 fs-5 fw-bold">Inventory Management</h5>
+                      <p class="text-uppercase">C# | MySql</p>
                       <a
                         href="./images/portfolio-img/warehouse.jpeg"
                         data-gallery="portfolioGallery"
@@ -628,57 +645,56 @@
       <div class="container py-5 mt-5">
         <div class="row contact">
           <div class="col-12">
-            <h1 class="text-success fs-1 fw-bold mb-4 text-center">
+            <h1 class="text-success fs-2 fw-bold mb-4 text-center text-uppercase">
               Contact Me
             </h1>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-6 mt-5 social-media">
+        <div class="row contact-details">
+          <div class="col-lg-5 mt-5 social-media ">
             <div class="row">
-              <div class="col-lg-6">
-                <div class="info-box mb-4">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <h5>Address:</h5>
-                  <span><p>No 37/A,Pallepanguwa,Lunugala</p></span>
-                </div>
-                <div class="info-box mb-4">
-                  <i class="fas fa-envelope"></i>
-                  <h5>Email</h5>
-                  <p>gayaradinali@gmail.com</p>
-                </div>
-              </div>
-              <div class="col-lg-6 social-media">
-                <div class="info-box mb-4">
-                  <i class="fas fa-phone-alt"></i>
-                  <h5>Phone Number</h5>
-                  <p>+94 71 3613 754</p>
-                </div>
-                <div class="info-box mb-4">
-                  <i class="fas fa-share-alt"></i>
-                  <h5>Social Profiles</h5>
-                  <div class="social-links">
-                    <a href="#" class="twitter"
-                      ><i class="fab fa-twitter pe-2"></i>
-                    </a>
-                    <a href="#" class="instagram"
-                      ><i class="fab fa-instagram pe-2"></i
-                    ></a>
-                    <a href="#" class="facebook"
-                      ><i class="fab fa-facebook pe-2"></i
-                    ></a>
-                    <a href="#" class="linkedin"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
+              <div class="col-lg-12">
+                <div class="contact-list ">
+                  <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h5>Address:</h5>
+                    <p>No 37/A,Pallepanguwa,Lunugala</p>
+                  </div>
+                  <div class="info-box mb-4">
+                    <i class="fas fa-envelope"></i>
+                    <h5>Email</h5>
+                    <p>gayaradinali@gmail.com</p>
+                  </div>
+                  <div class="info-box mb-4">
+                    <i class="fas fa-phone-alt"></i>
+                    <h5>Phone Number</h5>
+                    <p>+94 71 3613 754</p>
+                  </div>
+                  <div class="info-box mb-4">
+                    <i class="fas fa-share-alt"></i>
+                    <h5>Social Profiles</h5>
+                    <div class="social-links">
+                      <a href="#" class="twitter"
+                        ><i class="fab fa-twitter pe-2"></i>
+                      </a>
+                      <a href="#" class="instagram"
+                        ><i class="fab fa-instagram pe-2"></i
+                      ></a>
+                      <a href="#" class="facebook"
+                        ><i class="fab fa-facebook pe-2"></i
+                      ></a>
+                      <a href="https://www.linkedin.com/in/dinali-attanayake-bbb094145/" target="_blank" class="linkedin"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-6 mt-4">
-            <h4 class="fw-bold px-3">Send me a message</h4>
-            <form class="form p-3" onsubmit="sendEmail(); return false;">
+          <div class="col-lg-7 mt-4">
+            <h5 class="fw-bold px-3">Send me a message</h5>
+            <form class="form px-3 py-4" onsubmit="sendEmail(); return false;">
               <div class="mb-3">
                 <label for="user-name" class="form-label">Name</label>
                 <input
@@ -689,17 +705,17 @@
                 />
               </div>
               <div class="mb-3">
-                <label for="user-email" class="form-label">Email address</label>
+                <label for="user-email" class="form-label">Email</label>
                 <input
                   type="email"
                   class="form-control"
                   id="user-email"
-                  placeholder="name@example.com"
+                  placeholder="name@example.com" required
                 />
               </div>
               <div class="mb-3">
                 <label for="user-msg" class="form-label"
-                  >Example textarea</label
+                  >Message</label
                 >
                 <textarea
                   class="form-control"
@@ -709,17 +725,19 @@
               </div>
               <div class="text-center">
                 <button class="btn px-4 btn-primary" type="submit">
-                  Button
+                  Send
                 </button>
               </div>
             </form>
           </div>
+          
         </div>
       </div>
     </section>
+
     <!-- ========= contact section end ========= -->
     <footer class="footer">
-      <p class="text-center m-2">All rights reserved &copy; 2024</p>
+      <p class="text-center m-2 text-secondary">All rights reserved &copy; 2024</p>
     </footer>
     <!-- boostrap js -->
     <script

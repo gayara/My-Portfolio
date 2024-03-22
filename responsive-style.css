@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1199.5px) {
+@media (max-width: 1199.5px) {
   h1 {
     font-size: 3.6rem;
   }
@@ -12,11 +12,12 @@
   h5 {
     font-size: 1.0625rem;
   }
+
 }
 
 @media (max-width: 911px) {
   .navbar {
-    background-color: rgb(203, 221, 221);
+    background-color: rgb(174, 219, 219);
   }
 
   #hero {
@@ -31,6 +32,10 @@
   .hero-col h3::after {
     visibility: hidden;
   }
+  .social-media {
+    text-align: center;
+  }
+  
 }
 
 @media (max-width: 767px) {
@@ -49,9 +54,7 @@
   .progress {
     height: 8px;
   }
-  .social-media {
-    text-align: center;
-  }
+
 }
 
 @media (max-width: 575.5px) {
