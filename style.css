@@ -22,6 +22,7 @@ body {
 
 .name-nav{
   color: rgb(61, 156, 168);
+  font-size: 100%;
 }
 .navbar .navbar-toggler:focus {
   box-shadow: none;
