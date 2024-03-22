@@ -135,7 +135,7 @@ body {
 .timeline-icon {
   left: -14px;
   top: 0;
-  background-color: #54f8a6;
+  background-color: #cbebf3;
   position: absolute;
   width: 25px;
   z-index: 1;
@@ -146,7 +146,7 @@ body {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
   border: none !important;
-  background-color: rgb(225, 241, 131);
+  background-color: #d4ddd4;
 }
 .nav-tabs {
   border: none !important;
