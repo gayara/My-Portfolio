@@ -12,7 +12,7 @@ body {
 /* navbar */
 
 .navbar {
-  background-color: rgb(144, 221, 238);
+  background-color: rgb(217, 243, 247);
   box-shadow: 0 2px 2px -2.5px rgba(2, 2, 2, 0.5);
 }
 
@@ -58,7 +58,7 @@ body {
 /* home section */
 
 #hero {
-  background-color: rgb(144, 221, 238);
+  background-color: rgb(217, 243, 247);
   min-height: 100vh;
   width: 100%;
   z-index: 1;
@@ -146,7 +146,7 @@ body {
 /* skill section */
 
 #skills-section {
-  background-color: rgb(144, 221, 238);
+  background-color: rgb(217, 243, 247);
   width: 100%;
 }
 .skill-box {
@@ -166,7 +166,7 @@ body {
 }
 
 .progress .progress-bar {
-  background: #04130a;
+  background: #6470b4;
 }
 
 /* portfolio section */
@@ -230,14 +230,14 @@ body {
 /* contact section */
 
 #contact-section {
-  background-color: rgb(144, 221, 238);
+  background-color: rgb(217, 243, 247);
   width: 100%;
 }
 
 .contact-details {
   background-color: transparent;
   border-radius: 20px;
-  box-shadow: 1px 10px 15px 20px rgba(67, 74, 83, 0.2);
+  box-shadow: 1px 5px 10px 8px rgba(67, 74, 83, 0.2);
   padding: 10px;
   margin: 0 10px;
 }
@@ -246,6 +246,7 @@ body {
 .info-box i {
   font-weight: bold;
   color: rgb(1, 15, 39);
+  
 }
 .social-links a > i {
   color: #000;
@@ -255,6 +256,13 @@ body {
   color: #4653ca;
 }
 .form {
-  background: #c2e8f1;
+  background: transparent;
+  
+}
+
+.form input,
+.form textarea{
   border-radius: 15px;
+  background: transparent;
+  border: 1px solid black;
 }
