@@ -33,9 +33,7 @@
       <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container">
           <img src="./images/favicon-32x32.png " class="ms-2" alt="logo" />
-          <a class="navbar-brand ms-2 name-nav fw-bold" href="#"
-            >Portfolio</a
-          >
+          <a class="navbar-brand ms-2 name-nav fw-bold" href="#">Portfolio</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -143,7 +141,7 @@
               >
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link active fs-6 mx-2 text-success fw-bold"
+                    class="nav-link active fs-6 mx-2 fw-bold"
                     id="edu-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#edu-tab-pane"
@@ -157,7 +155,7 @@
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link fs-6 mx-2 text-success fw-bold"
+                    class="nav-link fs-6 mx-2 fw-bold"
                     id="experience-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#experience-tab-pane"
@@ -171,7 +169,7 @@
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link fs-6 mx-2 text-success fw-bold"
+                    class="nav-link fs-6 mx-2 fw-bold"
                     id="home-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#certificate-tab-pane"
@@ -486,6 +484,17 @@
                   aria-valuemax="100"
                 ></div>
               </div>
+              <span class="skill fw-bold">MySQL <i class="val">75%</i></span>
+              <div class="progress mt-2 mb-4">
+                <div
+                  class="progress-bar"
+                  style="width: 75%"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
               <span class="skill fw-bold">Git <i class="val">75%</i></span>
               <div class="progress mt-2 mb-4">
                 <div
@@ -514,10 +523,12 @@
             >
               Portfolio
             </h1>
-            <div class="control text-center d-flex align-item-center justify-content-center my-5 ">
+            <div
+              class="control text-center d-flex align-item-center justify-content-center my-5"
+            >
               <ul id="fiter-buttons">
                 <li
-                  class="btn btn-sm btn-outline-secondary m-1 active "
+                  class="btn btn-sm btn-outline-secondary m-1 active"
                   data-filter-target="all"
                 >
                   All
@@ -529,13 +540,13 @@
                   Website
                 </li>
                 <li
-                  class="btn btn-sm btn-outline-secondary m-1 "
+                  class="btn btn-sm btn-outline-secondary m-1"
                   data-filter-target="desktop"
                 >
                   Desktop
                 </li>
                 <li
-                  class="btn  btn-sm btn-outline-secondary m-1"
+                  class="btn btn-sm btn-outline-secondary m-1"
                   data-filter-target="game"
                 >
                   Game
@@ -739,6 +750,7 @@
                   class="form-control"
                   id="name"
                   placeholder="name"
+                  required
                 />
               </div>
               <div class="mb-3">
@@ -752,11 +764,12 @@
                 />
               </div>
               <div class="mb-3">
-                <label for="user-msg" class="form-label fw-bold">Message</label>
+                <label for="user-msg" class="form-label fw-bold" >Message</label>
                 <textarea
                   class="form-control"
                   id="user-msg"
                   rows="3"
+                  required
                 ></textarea>
               </div>
               <div class="text-center">

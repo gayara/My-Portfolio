@@ -9,10 +9,14 @@ body {
   line-height: 1.5;
 }
 
+:root {
+  --section-color: rgb(217, 243, 247);
+}
+
 /* navbar */
 
 .navbar {
-  background-color: rgb(217, 243, 247);
+  background-color: var(--section-color);
   box-shadow: 0 2px 2px -2.5px rgba(2, 2, 2, 0.5);
 }
 
@@ -20,7 +24,7 @@ body {
   font-size: 2rem;
 }
 
-.name-nav{
+.name-nav {
   color: rgb(61, 156, 168);
   font-size: 1.5rem;
 }
@@ -44,7 +48,7 @@ body {
   bottom: 0.5rem;
   width: 0;
   height: 2px;
-  background: #b5b8bd;
+  background: #4607ac;
   transition: 0.3s;
 }
 
@@ -55,14 +59,14 @@ body {
 
 .navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-item .nav-link.active {
-  color: rgb(55, 108, 177);
+  color: rgb(46, 102, 175);
   font-weight: 700;
 }
 
 /* home section */
 
 #hero {
-  background-color: rgb(217, 243, 247);
+  background-color: var(--section-color);
   min-height: 100vh;
   width: 100%;
   z-index: 1;
@@ -86,13 +90,12 @@ body {
   overflow-x: hidden;
 }
 
-.name{
-  color: rgb(13, 53, 128);
-  
+.name {
+  color: rgba(3, 74, 167, 0.904);
 }
 #hero .btn {
   margin-top: 5px;
-  background-color: rgb(26, 131, 145);
+  background-color: rgb(16, 116, 129);
   border-color: #87c4cf;
   color: #fff;
 }
@@ -146,7 +149,10 @@ body {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
   border: none !important;
-  background-color: #d4ddd4;
+  background-color: #7decf0;
+}
+.nav-tabs .nav-link {
+  color: #030953;
 }
 .nav-tabs {
   border: none !important;
@@ -155,7 +161,7 @@ body {
 /* skill section */
 
 #skills-section {
-  background-color: rgb(217, 243, 247);
+  background-color: var(--section-color);
   width: 100%;
 }
 .skill-box {
@@ -164,7 +170,7 @@ body {
   box-shadow: 0px 15px 20px rgba(88, 100, 117, 0.2);
 }
 
-.skill{
+.skill {
   font-size: 1rem;
 }
 .skill .val {
@@ -178,7 +184,7 @@ body {
 }
 
 .progress .progress-bar {
-  background: #6470b4;
+  background: #0368ffb0;
 }
 
 /* portfolio section */
@@ -242,7 +248,7 @@ body {
 /* contact section */
 
 #contact-section {
-  background-color: rgb(217, 243, 247);
+  background-color: var(--section-color);
   width: 100%;
 }
 
@@ -258,22 +264,20 @@ body {
 .info-box i {
   font-weight: bold;
   color: rgb(1, 15, 39);
-  
 }
 .social-links a > i {
-  color: #000;
+  color: #0013b9;
 }
 
 .social-links a > i:hover {
-  color: #4653ca;
+  color: #408ece;
 }
 .form {
   background: transparent;
-  
 }
 
 .form input,
-.form textarea{
+.form textarea {
   border-radius: 15px;
   background: transparent;
   border: 1px solid black;

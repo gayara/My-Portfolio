@@ -12,12 +12,11 @@
   h5 {
     font-size: 1rem;
   }
-
 }
 
 @media (max-width: 911px) {
   .navbar {
-    background-color: rgb(174, 219, 219);
+    background-color: rgb(221, 238, 238);
   }
 
   #hero {
@@ -35,7 +34,6 @@
   .social-media {
     text-align: center;
   }
-  
 }
 
 @media (max-width: 767px) {
@@ -54,10 +52,6 @@
   .progress {
     height: 2rem;
   }
-  
-
-
-
 }
 
 @media (max-width: 575.5px) {
